@@ -30,9 +30,7 @@ def recursive_palindrome(string):
 
     #   add while loops to strip the non-alpha characters from beginning and end
 
-    if len(string) == 0:
-        return True
-    elif len(string) == 1:
+    if len(string) <= 1:
         return True
     elif len(string) == 2:
         return string[0] == string[1]
